@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franse Woorden Oefenen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="card-container">
+            <div id="card" class="card">
+                <div class="front">
+                    <p id="word">...</p>
+                </div>
+                <div class="back">
+                    <p id="translation">...</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <button id="correct" class="btn green">Juist</button>
+            <button id="incorrect" class="btn red">Fout</button>
+        </div>
+    </div>
+
+    <div id="score" class="score">0 / 0</div>
+
+    <!-- Laad eerst jQuery, dan words.js en dan script.js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
